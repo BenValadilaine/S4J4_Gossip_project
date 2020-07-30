@@ -3,7 +3,6 @@ Gossip.destroy_all
 Tag.destroy_all
 City.destroy_all
 PrivateMessage.destroy_all
-JoinTableMessageUser.destroy_all
 JoinTableGossipTag.destroy_all
 
 10.times do
