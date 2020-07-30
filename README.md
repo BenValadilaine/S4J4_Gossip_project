@@ -1,9 +1,10 @@
-# README
+# The Gossip Project : database 
+### Week 4 day 4 : thursday
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
 
-Things you may want to cover:
+This is the third project : it is a simple database with a seed.rb that generates random informations (user, tag, gossips ...) and links some of them together.
+Random informations are generated thanks to faker gem.
+
 
 * Ruby version : 2.5.1
 * Rails version : 5.2.4.3
