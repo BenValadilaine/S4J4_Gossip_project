@@ -5,20 +5,17 @@ application up and running.
 
 Things you may want to cover:
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
+* Ruby version : 2.5.1
+* Rails version : 5.2.4.3
 
 * Database creation
-
-* Database initialization
+rails db:seed
 
 * How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Use table_print to display tables :
+tp User.all
+tp City.all
+tp Gossip.all
+tp Tag.all
+tp PrivateMessage.all
+tp JoinTableGossipTag.all
